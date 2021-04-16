@@ -1,0 +1,27 @@
+body
+{
+    background-image: url("Fond 2.jfif");
+    background-attachment: fixed;
+}
+
+p
+{
+    color: #FF0000;
+}
+
+#conteneur
+{
+     display: flex;
+     border: 2px solid #444;
+}
+
+.element
+{
+   width: 150px;
+   height: 100px;
+}
+
+.element:bth-child(1)
+{
+    background-color: red;
+}
